@@ -1,0 +1,213 @@
+.form-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 17px;
+}
+.form-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28,44px;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.form-name {
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #888888;
+    width: 600px;
+    height: 50px;
+    background-color: rgba(241, 241, 241, 0.3);
+    border: 2px solid rgba(40, 81, 147, 0.3);
+    border-radius: 5px;
+    display:block;
+    padding-left: 16px;
+    margin-bottom: 20px;
+}
+.form-email {
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #888888;
+    width: 600px;
+    height: 50px;
+    background-color: rgba(241, 241, 241, 0.3);
+    border: 2px solid rgba(40, 81, 147, 0.3);
+    border-radius: 5px;
+    display:block;
+    padding-left: 16px;
+    margin-bottom: 20px;
+}
+.form-tel {
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #888888;
+    width: 600px;
+    height: 50px;
+    background-color: rgba(241, 241, 241, 0.3);
+    border: 2px solid rgba(40, 81, 147, 0.3);
+    border-radius: 5px;
+    display:block;
+    padding-left: 16px;
+    margin-bottom: 20px;
+}
+.form-paragraph {
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #888888;
+    width: 600px;
+    height: 50px;
+    background-color: rgba(241, 241, 241, 0.3);
+    border: 2px solid rgba(40, 81, 147, 0.3);
+    border-radius: 5px;
+    display:block;
+    padding-left: 16px;
+    margin-bottom: 20px;
+}
+.form-textarea{
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #888888;
+    width: 600px;
+    height: 307px;
+    resize:none;
+    background-color: rgba(241, 241, 241, 0.3);
+    border: 2px solid rgba(40, 81, 147, 0.3);
+    border-radius: 5px;
+    display:block;
+    padding-top: 15px;
+    padding-left: 16px;
+    margin-bottom: 20px;
+}
+.form-file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 50px;
+    background-color: rgba(241, 241, 241, 0.3);
+    border: 2px solid rgba(40, 81, 147, 0.3);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.form-file span{
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #888888
+}
+.form-file img{
+    width: 24px;
+    height: 24px;
+    margin-left: 11px;
+}
+.form-cod {
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #888888;
+    width: 220px;
+    height: 50px;
+    background-color: rgba(241, 241, 241, 0.3);
+    border: 2px solid rgba(40, 81, 147, 0.3);
+    border-radius: 5px;
+    padding-left: 16px;
+    margin-bottom: 20px;
+}
+.cod span{
+    font-size: 23px;
+    line-height: 28px;
+    margin-left: 18px;
+}
+.form-submit {
+    font-size: 18px;
+    line-height: 21.33px;
+    font-weight: 700;
+    color:#ffffff;
+    background-color: #295093;
+    padding: 15px 61px;
+    cursor: pointer;
+    border:none;
+    border-radius: 5px;
+}
+
+.site-info {
+    width: 510px;
+    padding-top: 23px;
+    padding-right: 20px;
+    padding-bottom: 23px;
+    padding-left: 25px;
+    margin-top: 40px;
+    box-shadow: -12px 11px 0px 0px rgba(41, 80, 145, 0.16),
+                -12px 19px 9px rgba(57, 57, 57, 0.25);
+    border: 2px solid #BCC3CD;
+    border-radius: 5px;
+}
+.form-page-logo{
+    display: flex;
+    justify-content:flex-end;
+    margin-bottom: 21px;
+}
+.form-logo-img{
+    width: 300px;
+    height: 20px;
+
+}
+.site-email {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+.site-email span{
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #888888;
+}
+.site-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 17px;
+}
+.socials-name {
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #888888;
+}
+
+.social {
+    margin-left: 13px;
+}
+.site-telegram {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.mobil-telegram {
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #888888;
+}
+.telegram-button {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #295091;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.telegram-sub {
+    font-style: 18px;
+    line-height: 21.33px;
+    color:#ffffff
+}
+.mobile-app {
+    display: flex;
+    justify-content:space-between;
+    align-items:center
+}
+.app-text {
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #888888;
+}

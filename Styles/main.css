@@ -1,0 +1,326 @@
+
+  
+/* about-covid */
+.about-covid {
+    background-color: #F6F6F9;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px 33px;
+    margin: 0;
+    margin-top: 22px;
+}
+.covid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.covid-item-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:250px
+}
+.border-1 {
+    width: 390px;
+    border-right: 2px solid #EB5569;
+}
+.covid-item-text {
+    font-size: 20px;
+    font-weight:500;
+    line-height: 23.7px;
+    margin-left: 27px;
+}
+.border-2 {
+    width: 300px;
+    border-right: 2px solid #F4CCD1;
+}
+.covid-item-info {
+    margin-left: 17px;
+}
+.patients {
+    display: block;
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #db0000
+}
+.healthy{
+    display: block;
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #05B135
+}
+.dead{
+    display: block;
+    font-size: 18px;
+    line-height: 21.33px;
+    color: #000000
+}
+.amount {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+/* main-articles */
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+.main-articles {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    margin-top: 18px;
+}
+.main-articles-item {
+    width: 386px;
+    margin-bottom: 18px;
+}
+.articles-item-link{
+    text-decoration: none;
+}
+.main-articles-img {
+    margin-bottom: 11px;
+}
+.main-articles-title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#202020;
+    margin: 0;
+    margin-bottom: 11px;
+    transition: color 0.3s ease;
+}
+.main-articles-item:hover .main-articles-title{
+    color:#295091
+}
+.main-articles-data {
+    font-size: 14px;
+    color: #6B6D97;
+    margin: 0;
+}
+
+/* notification */
+.notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:28px 20px 28px 34px;
+    margin-top: 50px;
+    background-color: rgba(239, 186, 84, 0.18);
+    border-radius: 5px;
+}
+.notification-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notification-text {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 30px;
+}
+.notification-btn {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    color:#ffffff;
+    padding: 8px 15px;
+    background-color: rgba(255, 139, 54, 0.9);
+    border: none;
+    border-radius: 5px;
+}
+
+/* last-news */
+.last-news {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.last-news-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    margin: 0;
+    margin-top: 38px;
+    margin-bottom: 13px;
+}
+.last-news-left{
+    text-align: center;
+}
+.last-news-list {
+    width:785px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.left-news-item {
+    margin-bottom: 18px;
+}
+.left-news-link {
+    text-decoration: none;
+}
+.news-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.news-item-img {
+    width:252px;
+    height: 143px;
+}
+.news-item-content {
+    text-align: start;
+    margin-left: 19px;
+}
+.news-content-title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20.15px;
+    color: #202020;
+    margin: 0;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+.news-item:hover .news-content-title{
+    color:#295091
+}
+.news-content-text {
+    font-size: 15px;
+    line-height: 17.78px;
+    color:#434343;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.news-content-data {
+    display: flex;
+    align-items: center;
+    
+}
+.news-content-data span{
+    font-size: 14px;
+    line-height: 16.6px;
+    color: #7688A4;
+    margin-left: 4px;
+}
+.left-news-btn{
+    font-size: 17px;
+    line-height: 20.15px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 32px;
+    margin-top: 18px;
+    color: #ffffff;
+    background-color:#295093;
+    border: none;
+    border-radius: 5px;
+    transition: color 0.3s ease,
+                background-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+.left-news-btn:hover{
+    color: #295093;
+    background-color:#ffffff;
+    box-shadow: inset 0px 0px 0px 2px#295093;
+}
+.news-right-top {
+    width:386px;
+    list-style-type: none;
+    padding: 0;
+    padding: 17px 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    background-color: #F6F6F9;
+    border-radius: 5px;
+}
+
+.news-right-top-link {
+    text-decoration: none;
+}
+.news-right-top-title {
+    font-size: 20px;
+    font-weight:500;
+    line-height: 23.7px;
+    color:#202020;
+    margin: 0;
+    margin-bottom: 6px;
+}
+.news-right-top-text {
+    font-size: 17px;
+    line-height: 20.15px;
+    color:#202020;
+    margin: 0;
+    margin-bottom: 11px;
+    transition: color 0.3s ease;
+}
+.news-right-top-item:hover .news-right-top-text{
+    color: #295091;
+}
+.news-right-top-data {
+    font-size: 14px;
+    line-height: 16.6px;
+    color:#7688A4;
+    margin: 0;
+    margin-bottom: 14px;
+}
+.news-hr {
+    width: 346px;
+    height: 4px;
+    background-color: #e4e4e4;
+    margin-bottom: 18px;
+    border:none;
+}
+.news-advertising {
+    width: 386px;
+    height: 477px;
+}
+
+/* mobile */
+.mobile-app {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-right: 20px;
+    padding-left:20px;
+    padding-bottom: 0;
+    margin-top: 38px;
+    background-color: #F6F6F9;
+    border-radius: 5px
+}
+.mobile-cotent {
+    width:526px;
+}
+.mobile-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height:28px;
+    color:#295093;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.mobile-text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color:#333333;
+    margin: 0;
+
+}
+.mobile-download {
+    width: 162px;
+    height: 50px;
+}
+
+
